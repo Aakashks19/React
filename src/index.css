@@ -1,0 +1,56 @@
+h1{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+}
+header{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 5px;
+
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+header a{
+    text-decoration-line: none;
+    color: black;
+}
+
+footer{
+    margin: 20px 0;
+    display: flex;
+    background-color: blueviolet;
+    width: 100vw;
+    height: 50vh;
+    text-align:center;
+    align-items:end;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: brown;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
